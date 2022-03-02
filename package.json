@@ -16,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/rogerdesouza/curso-basico-typescript/issues"
   },
-  "homepage": "https://github.com/rogerdesouza/curso-basico-typescript#readme"
+  "homepage": "https://github.com/rogerdesouza/curso-basico-typescript#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+  }
 }
