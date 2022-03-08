@@ -70,7 +70,11 @@
         insert_final_newline = true
         end_of_line = lf
 
-6- para compilar o projeto ts (npx tsc)
+6- Instalar o webpack para projetos FRONT-END
+    6.1- (npm i ts-loader webpack webpack-cli -D)
+    6.2- criar o arquivo webpack.config.js na raiz do projeto e realizar as configuracoes
+
+7- para compilar o projeto ts (npx tsc)
 
 
 Outros:
@@ -79,3 +83,4 @@ Outros:
         gitLens
         docker
         material icons theme
+        live server
