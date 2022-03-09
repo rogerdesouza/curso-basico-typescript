@@ -76,6 +76,9 @@
 
 7- para compilar o projeto ts (npx tsc)
 
+Utilizar libs externas pode instalar:
+npm i @types/validator -D
+npm i validator -D
 
 Outros:
     - extencoes uteis:
