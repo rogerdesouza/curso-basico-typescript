@@ -20,15 +20,17 @@ const username = document.querySelector('.username');
 const email = document.querySelector('.email');
 const password = document.querySelector('.password');
 const password2 = document.querySelector('.password2');
-form.addEventListener('submit', function (event) {
+const submitEventFn = (event) => {
     event.preventDefault();
-    hideErrorMessages(this);
+    const target = event.target;
+    hideErrorMessages(target);
     checkForEmptyFields(username, email, password, password2);
     checkEmail(email);
     checkEqualPasswords(password, password2);
-    if (shouldSendForm(this))
+    if (shouldSendForm(target))
         console.log('formulário enviado');
-});
+};
+form.addEventListener('submit', submitEventFn);
 function checkEmail(input) {
     if (!(0, isEmail_1.default)(input.value))
         showErrorMessage(input, 'E-mail inválido');
