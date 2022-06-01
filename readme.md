@@ -87,3 +87,7 @@ Outros:
         docker
         material icons theme
         live server
+
+
+Repositório do exemplo:
+https://github.com/luizomf/cursojstypescript
